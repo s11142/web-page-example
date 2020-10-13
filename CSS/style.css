@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+body {
+  background-color: #f5f3eb;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 900px;
+}
+
+h2 {
+  color: #442220;
+  font-size: 18px;
+  border-bottom: 2px dotted #442220;
+  margin: 20px 0px;
+  padding: 10px;
+}
+
+p {
+  line-height: 160%;
+}
+
+/* ダイナミック擬似クラスは、 :link, :visited, :hover, :activeの順に記述しないとスタイルが適用されないため注意！ */
+
+a:link {
+  color: #6aa4d6;
+}
+
+a:visited {
+  color: #6aa4d6;
+}
+
+a:hover {
+  color: #4f7697;
+}
+
+a:active {
+  color: #aed3f2;
+}
+
+h1 {
+  margin: 30px 0px;
+  padding: 0px;
+  line-height: 0px;
+  text-align: center;
+  border-style: none;
+}
+
+#nav li{
+  display: inline;
+  list-style-type: none;
+  padding-right: 30px;
+}
+
+#nav {
+  background-image: url(../images/menu-bg.png);
+  padding: 15px 30px 10px 30px;
+}
+
+#nav li a:link {
+  color: #f5f3eb;
+  /* urlリンクに自動でつく下線を消す */
+  text-decoration: none;
+}
+
+#nav li a:visited {
+  color: #f5f3eb;
+  text-decoration: none;
+}
+
+#nav li a:hover {
+  color: #e4dbb9;
+  text-decoration: none;
+}
+
+#nav li a:active {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#footer {
+  background-image: url(../images/footer-bg.png);
+  background-repeat: repeat-x;
+  margin-top: 30px;
+  padding: 20px 0px;
+  font-size: smaller;
+  color: #442220;
+}
+
+
+/* index.html */
+.keyvisual {
+  margin: 20px 0 0 0;
+}
+
+.news_item {
+  margin: 0;
+}
+
+
+/* about.html */
+.float img {
+  float: left;
+  padding-right: 1em;
+}
+
+/* floatの解除（回り込む可能性があるため） */
+.clear {
+  clear: both;
+}
+
+table.info {
+  border-collapse: collapse;
+  border: 1px solid #b78c5f;
+}
+
+table.info th, table.info td {
+  padding; 8px;
+  border: 1px solid #d6c2b5;
+  text-align: left;
+  vertical-align: middle;
+}
+
+table.info th {
+  background-color: #c99e73;
+  color: #442220;
+}
+
+
+/* menu.html */
+.menu_block {
+  /* menu_blockが終了したらfloat: reftを解除する */
+  overflow: hidden;
+  zoom: 1;
+}
+
+.menu_left {
+  float: left;
+  width: 280px;
+  margin-right: 20px;
+}
+
+.menu_right {
+  float: left;
+  width: 600px;
+}
+
+table.menu_all {
+  border: none;
+  border-collapse: collapse;
+}
+
+table.menu_all td {
+  padding: 0;
+}
+
+table.menu_all td.photo {
+  padding: 0 10px 10px 0;
+}
+
+.menu_right h3 {
+  margin: 20px 0;
+  text-align: right;
+  font-size: 16px;
+  color: #442220;
+}
+
+.menu_right p {
+  text-align: right;
+  font-size: 12px;
+}
+
+
+/* access.html */
+.map {
+  text-align: center;
+}
+
+/* contact.html */
+form div {
+  padding: 12px;
+  border-bottom: 1px dashed #d6c2b5;
+}
+
+select {
+  width: 30em;
+}
+
+label {
+  color: #442220;
+}
+
+input[name=subject] {
+  width: 30em;
+}
+
+textarea {
+  width: 30em;
+  height: 6em;
+}
+
+input[type=submit] {
+  margin: 20px 12px;
+  width: 30em;
+}
