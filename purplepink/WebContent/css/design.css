@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+
+
+.header{
+	display:grid;
+	background-color:purple;
+	color:white;
+	font-weight:bold;
+	text-align:center;
+}
+.header_name{
+	color:white;
+}
+/header.username{
+	color:white;
+}
+
+.footer{
+	position:absolute;
+	bottom:0;
+	background-color:purple;
+	text-align:center;
+	color:white;
+	height:4%;
+	width:100%;
+	line-height:3%;
+}
+.logout{
+	border-radius : 50%;
+	color:#ffffff;
+	background-color:purple;
+}
+.logout:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         : #ff66ff;;     /* 背景色     */
+  background    : purple;     /* 文字色     */
+}
+
+.back{
+	background-color: #fff0f5;
+
+
+}

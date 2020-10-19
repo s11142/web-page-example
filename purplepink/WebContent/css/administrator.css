@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+
+.block{
+
+	float: right;
+	width: 43%;
+
+	  height: 400px;
+      widows: 350px;
+
+	background-color: whitesmoke;
+    border: 2px dashed #FF8C00;
+    border-radius: 8px;
+    box-shadow: 0 0 0 4px #FF8C00;
+    color: black;
+    margin: 2em 0;
+    padding: 2em;
+}

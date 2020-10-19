@@ -1,0 +1,54 @@
+@CHARSET "UTF-8";
+
+
+.block_a {
+	float:left;
+
+	width:20%;
+
+	position:relative;
+   top:150px;
+  vleft:-10px;
+}
+
+.block_b {
+
+background-color: #8d1e47;
+	border: 2px dashed #fff;
+	border-radius: 8px;
+	box-shadow: 0 0 0 4px #8d1e47;
+	color: #fff;
+	margin: 2em 0;
+	padding: 2em;
+	margin: 0 auto;
+	width: 50%;
+	max-width: 500px;
+	text-align: center;
+
+
+
+}
+
+.big{
+
+	 padding: 15px 40px;
+
+    font-size: 1.2em;
+   position: absolute;
+	left: 40%;
+	top: 80%;
+
+
+}
+
+.big2{
+
+	float: right;
+	 padding: 15px 40px;
+
+    font-size: 1.2em;
+   position: absolute;
+	right: 40%;
+	top: 80%;
+}
+

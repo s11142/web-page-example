@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+.allside{
+	display:flex;
+
+}
+.leftSide{
+	background-color:#fff8cf;
+	height:300px;
+
+}
+.leftUpSide{
+	background-color:#d0e39b;
+}
+.leftDownSide{
+	background-color:#d0e39b;
+}
+.rightSide{
+text-align: center;
+}
+.rightUpSide{
+text-align: center;
+}
+.rightDownSide{
+	background-color:#e6f0f0;
+	height:160px;
+}
+.center{
+		margin: 0 auto;
+		overflow-y:scroll
+}
+.tableArea {
+
+  width          : 100%;             /* 100%幅     */
+  border-collapse: collapse;         /* 境界線結合 */
+  border-spacing : 0;                /* 罫線間余白 */
+  font-size      : 12pt;              /* 文字サイズ */
+  background     : #ffffff;          /* テーブル全体の背景色 */
+}
+.tableArea th {
+  text-align    : center;            /* 文字位置   */
+  padding       : 10px 0px;           /* 余白       */
+  border        : 1px #666666 solid; /* 罫線       */
+  background    : #ffffff;           /* 背景色     */
+}
+.tableArea td {
+  text-align    : center;            /* 文字位置   */
+  padding       : 12px 7px;           /* 余白       */
+  border        : 1px #666666 solid; /* 罫線       */
+}
+.tableArea tr:nth-child(2n+1) {
+  background    : #ffffff;           /* 背景色     */
+}

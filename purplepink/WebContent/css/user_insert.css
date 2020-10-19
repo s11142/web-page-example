@@ -1,0 +1,72 @@
+@CHARSET "UTF-8";
+
+.allside {
+
+}
+
+.block_a {
+	float: left;
+	height: width:30%;
+	position: relative;
+	top: 150px;
+	left: -10px;
+}
+
+.block_b {
+
+	width: 50%;
+	text-align: center;
+	background-color: #8d1e47;
+	border: 2px dashed #fff;
+	border-radius: 8px;
+	box-shadow: 0 0 0 4px #8d1e47;
+	color: #fff;
+	margin: 0 auto;
+	padding: 2em;
+}
+
+.input {
+	width: 80%;
+}
+
+.item {
+	width: 20%;
+}
+
+.block_c {
+	text-align: center;
+}
+
+.block_d {
+	text-align: center;
+	clear: both;
+}
+
+.a {
+	padding: 15px 40px;
+	font-size: 1.2em;
+}
+
+/*ここから共通*/
+.center {
+	background-color: #8d1e47;
+	border: 2px dashed #fff;
+	border-radius: 8px;
+	box-shadow: 0 0 0 4px #8d1e47;
+	color: #fff;
+	margin: 2em 0;
+	padding: 2em;
+	margin: 0 auto;
+	width: 50%;
+	max-width: 500px;
+	text-align: center;
+}
+.a{
+	float: right;
+	 padding: 15px 40px;
+    font-size: 1.2em;
+   position: absolute;
+	right: 40%;
+	top: 80%
+
+}
